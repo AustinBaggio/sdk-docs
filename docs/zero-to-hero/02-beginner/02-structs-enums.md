@@ -13,7 +13,7 @@ import enumBox from '../assets/enum-a-d-block--eizaconiendo.near--eiza_coniendo.
 
 ### Structs
 
-If you're not familiar with Rust, it may be confusing that there are no classes or inheritance like other programming languages. We'll be exploring how to [use structs](https://doc.rust-lang.org/book/ch05-01-defining-structs.html), which are someone similar to classes, but perhaps simpler.
+If you're not familiar with Rust, it may be confusing that there are no classes or inheritance like other programming languages. We'll be exploring how to [use structs](https://doc.rust-lang.org/book/ch05-01-defining-structs.html), which are somewhat similar to classes, but perhaps simpler.
 
 Remember that there will be only one struct that gets the [`#[near_bindgen]` macro](/contract-structure/near-bindgen) placed on it; our primary struct or singleton if you wish. Oftentimes the primary struct will contain additional structs that may, in turn, contain more structs in a neat and orderly way. You may also have structs that are used to return data to an end user, like a frontend. We'll be covering both of these cases in this chapter.
 
